@@ -40,4 +40,3 @@ def generate_password(length):
         pyperclip.copy(password)
         print("Password copied to the clipboard!")
         
-generate_password(int(input("How many characters should your password contain? ")))
